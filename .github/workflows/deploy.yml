@@ -28,8 +28,8 @@ jobs:
     - name: Google Github Actions Auth
       uses: google-github-actions/auth@v2
       with:
-        workload_identity_provider: {{ secrets.GCLOUD_WORKLOAD_IDENTITY_PROVIDER }}
-        service_account: {{ secrets.GCLOUD_SERVICE_ACCOUNT_NAME }}
+        workload_identity_provider: ${{ secrets.GCLOUD_WORKLOAD_IDENTITY_PROVIDER }}
+        service_account: ${{ secrets.GCLOUD_SERVICE_ACCOUNT_NAME }}
 
     - name: Store cache_Id
       run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
