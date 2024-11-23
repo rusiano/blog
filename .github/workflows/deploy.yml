@@ -28,19 +28,20 @@ jobs:
     - name: Google Github Actions Auth
       uses: google-github-actions/auth@v2
       with:
+        project_id: ${{ secrets.PROJECT_ID }}
         workload_identity_provider: ${{ secrets.GCLOUD_WORKLOAD_IDENTITY_PROVIDER }}
         service_account: ${{ secrets.GCLOUD_SERVICE_ACCOUNT_NAME }}
 
-    - name: Store cache_Id
-      run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+    # - name: Store cache_Id
+    #   run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
 
-    - name: Restore from Cache
-      uses: actions/cache@v4
-      with:
-        key: mkdocs-material-${{ env.cache_id }}
-        path: .cache
-        restore-keys: |
-          mkdocs-material-
+    # - name: Restore from Cache
+    #   uses: actions/cache@v4
+    #   with:
+    #     key: mkdocs-material-${{ env.cache_id }}
+    #     path: .cache
+    #     restore-keys: |
+    #       mkdocs-material-
 
     - name: Install MkDocs and dependencies
       run: |
