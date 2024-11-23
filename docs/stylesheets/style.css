@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+
+main.md-main {
+    background-color:aliceblue;
+}
+
+.md-main__inner {
+    max-width: 840px; 
+}
+.md-sidebar--primary {
+    max-width: 150px;
+}
+.md-sidebar--secondary{
+    width: 0px;
+}
+.md-sidebar--post {
+    display: none;
+}
+
+:root {
+    --md-text-font: "Inter", sans-serif;
+}
+:root > * {
+  --md-primary-fg-color:        #202020;
+}
+
+.md-typeset a{
+  color: black;
+  font-weight: 700;
+}
+
+figcaption{
+  color: rgb(71 85 105);
+}
+
+.md-typeset figcaption{
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+img:not(.twemoji),
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  padding: 1px;
+}
+/* video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    padding: 1px;
+  } */
+
+.md-post__action{
+    display: none;
+}
+
+.md-post__header {
+    font-family: monospace;
+    min-width: 230px;
+}
+
+.md-post__content.md-typeset {
+    align-content: center;
+    display: flex;
+}
+.md-post__content.md-typeset::before {
+    content: "|";
+    margin-right: 8px;
+    color: black;
+    font-weight: var(--md-default-fg-color--light);
+}
+
+.md-post__content.md-typeset > p,
+.md-post__content.md-typeset > nav {
+    display: none;
+}
+
+.md-post.md-post--excerpt {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 1rem;
+}
+
+.md-post.md-post--excerpt > * > * {
+    font-size: 1rem !important;
+}
+
+.md-post__content.md-typeset h2 {
+    /* font-size: 1em; */
+    line-height: 1.4;
+    margin: 0;
+}
+
+.md-draft {
+    margin-right: .4rem;
+}
+
+.md-footer {
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+}
+.md-footer-meta__inner.md-grid {
+    justify-content: center;
+    padding: 0;
+}
+.md-social {
+    display: none;
+}
+
+article > h1 {
+    color: black !important;
+}
+
+article > h2 {
+    margin-bottom: .25rem !important;
+}
+
+article > p {
+    margin-top: .5rem !important;
+}
+
+.md-typeset h1 {
+    font-weight: 900;
+}
+.md-typeset h2 {
+    font-weight: 700;
+}
+
+.md-tags {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem !important;
+    border-bottom: 1px solid black;
+}
+
+.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
+    background-color: unset !important;
+    box-shadow: none !important;
+}
