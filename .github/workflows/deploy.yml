@@ -28,7 +28,7 @@ jobs:
     - name: Google Github Actions Auth
       uses: google-github-actions/auth@v2
       with:
-        project_id: ${{ secrets.PROJECT_ID }}
+        project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
         workload_identity_provider: ${{ secrets.GCLOUD_WORKLOAD_IDENTITY_PROVIDER }}
         service_account: ${{ secrets.GCLOUD_SERVICE_ACCOUNT_NAME }}
 
@@ -55,5 +55,7 @@ jobs:
     - name: Upload to Google Cloud Storage
       uses: google-github-actions/upload-cloud-storage@v2
       with:
+        project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
         destination: ${{ secrets.BUCKET_NAME }} 
         path: ./site 
+        parent: false
