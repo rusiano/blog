@@ -40,11 +40,11 @@ plugins:
         - OT
 
       draft_on_serve: false
-  - rss:
-      match_path: "blog/posts/.*"
-      date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+  # - rss:
+  #     match_path: "blog/posts/.*"
+  #     date_from_meta:
+  #       as_creation: date.created
+  #       as_update: date.updated
 
 extra:
   social:
