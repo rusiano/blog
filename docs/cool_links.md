@@ -4,4 +4,4 @@ hide:
   - toc
 ---
 
-# cool_lin.ks
+# cool_links
