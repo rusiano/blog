@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# :broccoli: about.me
+# About Me
 
 **MSc in Data Science** with minor degree in Entrepeneurship & Innovation. **BSc in Computer Science**. 
 Within the field of Data Science, I am most experienced in ETL, data mining/analysis and data visualization. Also, I have a very strong liking for good old algorithmic problem solving and shallow machine learning.
@@ -17,7 +17,7 @@ Apart from writing code and mining data, on a more personal level I have a lot o
 
 I'd say I am quiet yet curious person, serious yet cheerful employee, a fast yet steady learner.MSc in Data Science with minor degree 
 
-## CV
+# CV
 
 You can find my updated CV here:
 

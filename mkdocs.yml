@@ -1,6 +1,6 @@
-site_name: A Блог
-site_description: an example blog set up following the blog tutorials
-site_url: http://www.example.com
+site_name: rusiano.xyz
+site_description: A personal blog
+site_url: http://rusiano.xyz
 
 theme:
   name: material
@@ -8,9 +8,9 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.path
     - navigation.prune
+    # - navigation.tabs.sticky
 
 plugins:
   - search
@@ -31,7 +31,7 @@ plugins:
           case: lower
           short: true
 
-      categories_name: --categorie.S
+      categories_name: --categories
       categories_allowed:
         - F4T
         - FUN
@@ -40,11 +40,6 @@ plugins:
         - OT
 
       draft_on_serve: false
-  # - rss:
-  #     match_path: "blog/posts/.*"
-  #     date_from_meta:
-  #       as_creation: date.created
-  #       as_update: date.updated
 
 extra:
   social:
@@ -65,7 +60,7 @@ extra_css:
   - stylesheets/style.css
 
 nav:
-  - home: index.md
-  - about.me: about.md
-  - cool_lin.ks: cool_links.md
-  - --ta.gs: tags.md
+  - blog: index.md
+  - about me: about.md
+  # - links: cool_links.md
+  # - tags: tags.md

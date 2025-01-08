@@ -2,14 +2,12 @@
 hide:
   - navigation
   - toc
-title: ho.me
+title: blog
 ---
 
 <!-- more -->
 
-# :house: ho.me
-
+> ***categories***  
 > `TIFO`: Today-I-Found-Out | `TIL`: Today-I-Learnt | `F4T`: Food-For-Thought
-
 
 <br>
