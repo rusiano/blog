@@ -1,6 +1,6 @@
-site_name: rusiano.xyz
+site_name: blog.rusiano.xyz
 site_description: A personal blog
-site_url: http://rusiano.xyz
+site_url: http://blog.rusiano.xyz
 
 theme:
   name: material
