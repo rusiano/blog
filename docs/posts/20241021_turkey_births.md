@@ -1,25 +1,16 @@
 ---
-date:
+date: 
   created: 2024-10-21
-#   updated: 2024-01-02
-# readtime: 15
-# pin: true
-links:
-  - Homepage: index.md#project-layout
-#   - Blog index: blog/index.md
-#   - External links:
-#     - Material documentation: https://squidfunk.github.io/mkdocs-material
 categories:
   - TIFO
 tags:
   - data-analysis
-  - data-visualization
+  - data-viz
   - data-journalism
   - turkey
   - birthdays
   - probability
 
-comments: true
 ---
 
 # :tr: Turkey's curious birth patterns
