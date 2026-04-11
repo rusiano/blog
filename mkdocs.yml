@@ -1,4 +1,4 @@
-site_name: blog.rusiano.xyz
+site_name: rusiano's blog
 site_description: A personal blog
 site_url: http://blog.rusiano.xyz
 
@@ -60,7 +60,7 @@ extra_css:
   - stylesheets/style.css
 
 nav:
-  - blog: index.md
+  - articles: index.md
   - about me: about.md
   # - links: cool_links.md
   # - tags: tags.md

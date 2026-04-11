@@ -4,9 +4,13 @@ hide:
   - toc
 ---
 
-# About Me
+# about me
 
-**MSc in Data Science** with minor degree in Entrepeneurship & Innovation. **BSc in Computer Science**. 
+- **MSc in Data Science**  (w/ minor degree in Entrepeneurship & Innovation) 
+    - where? [TU/e](https://www.tue.nl/en/) Eindhoven :nl: & [UPM](https://www.tue.nl/en/) Madrid :es:
+- **BSc in Computer Science** 
+    - where? [UNIMIB](https://www.unimib.it/) Milan :it:
+
 Within the field of Data Science, I am most experienced in ETL, data mining/analysis and data visualization. Also, I have a very strong liking for good old algorithmic problem solving and shallow machine learning.
 
 Speaking about tools, I mostly work with and develop in Python, and I am particularly knowledgeable about data preprocessing and transformation, especially with pandas. Not coincidentally, I have been teaching these very same topics and some ML at IE University, where I am currently an Adjunct Professor. As of 2024, I am lecturing Introduction to Programming to 1st-year students in the Bachelor's in Business Administration (BBA).
@@ -17,7 +21,9 @@ Apart from writing code and mining data, on a more personal level I have a lot o
 
 I'd say I am quiet yet curious person, serious yet cheerful employee, a fast yet steady learner.MSc in Data Science with minor degree 
 
-# CV
+<br>
+
+# cv
 
 You can find my updated CV here:
 
